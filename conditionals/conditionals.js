@@ -2,15 +2,15 @@
 10 == 3 // returns false
 5 == 5 // returns true
 6 == "6" // returns true
-// console.log('5 and 5 are equal:', 5 == 5);
-// console.log('10 and 3 are equal:', 10 == 3);
+7 === "7" //strict equality - return false
+//  console.log('5 and 5 are equal:', 5 == 5);
+//  console.log('10 and 3 are equal:', 10 == 3);
 
 // Not equal values
 10 != 3 // returns true
 5 != 5 // returns false
 // console.log('10 and 3 are not equal:', 10 != 3);
-// console.log('5 and 5 are not equal:', 5 != 5);
-
+// console.log("5 and 5 are not equal:", 5 != 5);
 // Less than
 10 < 3 // returns false
 5 < 5 // returns false
@@ -31,10 +31,10 @@
 10 <= 3 // returns false
 5 <= 5 // returns true
 4 <= 5 // returns true
+
 // console.log('10 is less than or equal to 3:', 10 <= 3);
 // console.log('5 is less than or equal to 5:', 5 <= 5);
 // console.log('4 is less than or equal to 5:', 4 <= 5);
-
 // Greater than or Equal values
 10 >= 3 // returns true
 5 >= 5 // returns true
@@ -64,9 +64,9 @@ let x = 4;
 let y = 8;
 let z = 12;
 
-x < 5 && y > 5; // returns true because both conditions are true
-x > 5 && z > 10; // returns false because x > 5 is false
-y > 10 && z > 10; // returns false because y > 10 is false
+4 < 5 && 8 > 5; // returns true because both conditions are true
+4 > 5 && 12 > 10; // returns false because x > 5 is false
+8 > 10 && 12 > 10; // returns false because y > 10 is false
 // console.log('x < 5 and y > 5:', x < 5 && y > 5);
 // console.log('x > 5 and z > 10:', x > 5 && z > 10);
 // console.log('y > 10 and z > 10:', y > 10 && z > 10);
@@ -90,7 +90,7 @@ b > 5 || c < 8; // returns true because b > 5 is true
 // }
 
 //if else 
-// let number = 2
+// let number = -2
 // if(number > 0){
 //     console.log("number is positive")
 // }
